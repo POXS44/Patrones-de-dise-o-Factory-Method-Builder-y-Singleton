@@ -1,7 +1,7 @@
 package org.poxs44.MethodF;
 import java.awt.*;
 
-public class Circulo extends Figuras{
+public class Circulo extends Figura {
 
     public Circulo(int lado){
         super(lado);

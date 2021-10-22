@@ -2,10 +2,10 @@ package org.poxs44.MethodF;
 
 import java.awt.*;
 
-public abstract class Figuras {
+public abstract class Figura {
 
     int lado = 0;
-    public Figuras(int lado) {
+    public Figura(int lado) {
         this.lado = lado;
     }
     public abstract double getArea();

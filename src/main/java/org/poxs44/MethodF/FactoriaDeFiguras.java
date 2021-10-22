@@ -5,7 +5,7 @@ public class FactoriaDeFiguras {
     public static final int CUADRADO = 0;
     public static final int CIRCULO = 1;
 
-    public Figuras getFigura(int tipo, int lado) {
+    public Figura getFigura(int tipo, int lado) {
         if (tipo == CUADRADO){
             return (new Cuadrado(lado));
         }

@@ -2,7 +2,7 @@ package org.poxs44.MethodF;
 
 import java.awt.*;
 
-public class Cuadrado extends Figuras{
+public class Cuadrado extends Figura {
     public Cuadrado(int lado){
         super(lado);
     }
@@ -10,7 +10,7 @@ public class Cuadrado extends Figuras{
         return (lado * lado);
     }
     public void dibujar(Graphics g, int x, int y){
-        g.setColor(Color.BLACK);
+        g.setColor(Color.RED);
         g.drawRect(x, y, lado, lado);
     }
 }
